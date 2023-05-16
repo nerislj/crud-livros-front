@@ -6,7 +6,7 @@
 
     </div>
 
-    <button class="mat-elevation-z8" mat-stroked-button color="primary">Novo Livro</button>
+    <button class="mat-elevation-z8" (click)="navegarParaCriarLivro()" mat-stroked-button color="primary">Novo Livro</button>
 
     <table class="table" mat-table [dataSource]="livros" class="mat-elevation-z8">
 

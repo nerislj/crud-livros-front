@@ -1,6 +1,6 @@
 <form>
 
-    <h1>Criar Livro</h1>
+    <h1>Atualizar Livro</h1>
 
     <mat-form-field class="form">
         <mat-label>Titulo</mat-label>
@@ -21,7 +21,7 @@
     </mat-form-field>
 
     <div class="buttons">
-        <button (click)="create()" [disabled]="getMessageAutor() || getMessageTitulo() || getMessageTexto()" class="mat-elevation-z8" mat-stroked-button color="primary">Salvar</button>
+        <button (click)="update()" [disabled]="getMessageAutor() || getMessageTitulo() || getMessageTexto()" class="mat-elevation-z8" mat-stroked-button color="primary">Salvar</button>
         <button (click)="cancel()" class="mat-elevation-z8" mat-stroked-button color="warn">Cancelar</button>
     </div>
 
